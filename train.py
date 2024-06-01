@@ -18,15 +18,6 @@ from utils.train_engine import Train
 from utils.datasets import PoseDataset
 
 
-'''
-# pass in the arguments
-# '--checkpoint_path', '/content/drive/My Drive/Colab Notebooks/My Projects/Excavator_Pose_Estimation/logs/20200730_0409/checkpoint_last.pth'
-
-sys.argv = ['train_colab',
-            '--dataset_dir', './datasets/FDR_1k',
-            '--vis_enabled', 1
-            ]
-'''
 
 def main(exp_name,
          epochs,
